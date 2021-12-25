@@ -39,3 +39,7 @@ console.log("Возраст: " + age);
   - [Введение в программирование](https://ru.hexlet.io/courses/introduction_to_programming)
   - [Введение в Git](https://ru.hexlet.io/courses/intro_to_git)
   - [Основы командной строки](https://ru.hexlet.io/courses/cli-basics/goto)
+
+## English
+
+Lower intermediate A2
