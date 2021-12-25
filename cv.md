@@ -18,3 +18,16 @@ I am studying at RS School to become a front-end developer.
 * CSS
 * JavaScript
 * Git
+
+## Code examples
+
+```
+var fistName;
+var secondName;
+var age;
+firstName = prompt("Введите имя");
+secondName = prompt("Введите фамилию");
+age = prompt("Введите возраст");
+console.log("Пользователь: " + firstName + " " + secondName);
+console.log("Возраст: " + age);
+```
