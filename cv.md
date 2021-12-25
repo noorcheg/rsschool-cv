@@ -11,3 +11,10 @@
 ## About me
 
 I am studying at RS School to become a front-end developer. 
+
+## Skills
+
+* HTML
+* CSS
+* JavaScript
+* Git
