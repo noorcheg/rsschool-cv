@@ -5,9 +5,85 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,200;0,400;1,400&display=swap" rel="stylesheet">
     <title>RS School CV</title>
 </head>
 <body>
-    <h1>Hello World!</h1>
+    <header class="header">
+        <div class="container headerContainer">
+            <nav class="nav">
+                <ul class="navList">
+                    <li class="navItem"><a href="#contacts" class="navLink">Contacts</a></li>
+                    <li class="navItem"><a href="#aboutMe" class="navLink">About me</a></li>
+                    <li class="navItem"><a href="#skills" class="navLink">Skills</a></li>
+                    <li class="navItem"><a href="#codeExamples" class="navLink">Code Examples</a></li>
+                    <li class="navItem"><a href="#education" class="navLink">Education and courses</a></li>
+                    <li class="navItem"><a href="#english" class="navLink">English</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main class="main">
+        <div class="container mainContainer">
+            <section class="section sectionProfile">
+                <img src="./assets/img/image.jpg" alt="Photo" class="profileImage">
+                <div class="sectionProfileTitile">
+                    <h1 class="sectionTitle mainTitle">Ainur Galiakberov</h1>
+                    <h3 class="sectionSubtitle">Junior Front-End Developer</h3>
+                </div>
+            </section>
+            <section class="section" id="contacts">
+                <h2 class="sectionTitle">Contacts</h2>
+                <ul class="sectionList">
+                    <li class="sectionItem contactsItem">Ufa, Russia</li>
+                    <li class="sectionItem contactsItem">Email: <a href="mailto:noorcheg@gmail.com">noorcheg@gmail.com</a></li>
+                    <li class="sectionItem contactsItem">GitHub: <a href="http://github.com/noorcheg">noorcheg</a></li>
+                    <li class="sectionItem contactsItem">Telegram: <a href="http://t.me/noorcheg">Ainur Galiakberov</a></li>
+                </ul>
+            </section>
+            <section class="section" id="aboutMe">
+                <h2 class="sectionTitle">About me</h2>
+                <p>I am studying at RS School to become a front-end developer.</p>
+            </section>
+            <section class="section" id="skills">
+                <h2 class="sectionTitle">Skills</h2>
+                <ul class="sectionList">
+                    <li class="skillsItem">HTML</li>
+                    <li class="skillsItem">CSS</li>
+                    <li class="skillsItem">JavaScript</li>
+                    <li class="skillsItem">Git</li>
+                </ul>
+            </section>
+            <section class="section" id="codeExamples">
+                <h2 class="sectionTitle">Code Examples</h2>
+                <pre class="pre"><code>const greet = () => {
+    return 'hello world!'
+}
+                </code></pre>
+            </section>
+            <section class="section sectionEducation" id="education">
+                <h2 class="sectionTitle">Education and courses</h2>
+                <ul class="sectionList">
+                    <li class="sectionItem">Ufa State Aviation Technical University - <span>Electronics and nanoelectronics</span></li>
+                    <li class="sectionItem">Hexlet - <span>Introduction to programming</span></li>
+                    <li class="sectionItem">Hexlet - <span>Intro to Git</span></li>
+                    <li class="sectionItem">Hexlet - <span>CLI basics</span></li>
+                </ul>
+            </section>
+            <section class="section sectionEnglish" id="english">
+                <h2 class="sectionTitle">English</h2>
+                <p>A2 - Lower intermediate</p>
+            </section>
+        </div>            
+    </main>
+    <footer class="footer">
+        <div class="container footerContainer" >
+            <div>© 2022 <a href="http://github.com/noorcheg" class="github navLink">noorcheg</a></div>
+            <a href="https://rs.school/js/" class="rss navLink">.</a>
+        </div>
+    </footer>
 </body>
 </html>
