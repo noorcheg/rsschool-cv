@@ -60,8 +60,9 @@ body {
 
 .section {
     padding-left: 10px;
+    padding-bottom: 15px;
     width: calc(50% - 20px);
-    border-bottom: 1px solid orange;
+    border-bottom: 1px solid gold;
 }
 
 .sectionEducation, .sectionEnglish {
@@ -74,7 +75,7 @@ body {
     font-weight: 200;
     text-transform: uppercase;
     letter-spacing: 3px;
-    color: orange;
+    color: gold;
 }
 
 .sectionProfile {
@@ -92,7 +93,6 @@ pre {
 
 code {
     font-family: 'IBM Plex Mono', monospace;
-    font-size: 14px;
 }
 
 .sectionProfileTitle {
@@ -102,6 +102,10 @@ code {
     align-content: center;
     text-align: center;
     text-transform: uppercase;
+}
+
+.mainTitle {
+    text-align: center;
 }
 
 .sectionSubtitle {
@@ -196,7 +200,7 @@ footer {
     justify-content: space-between;
     align-items: center;
     margin: 0 auto;
-    color: #666;
+    color: #000;
 }
 
 .rss {
