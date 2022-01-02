@@ -16,3 +16,29 @@ body {
     color: #777;
     line-height: 2;
 }
+
+.container {
+    max-width: 1280px;
+    margin: 0 auto;
+    min-height: 72px;
+}
+
+.header {
+    background-color: aqua;
+}
+
+.navList {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+}
+
+.navLink {
+    position: relative;
+    padding: 0 10px;
+    font-size: 24px;
+    font-weight: 200;
+    color: #000;
+    text-decoration: none;
+}
