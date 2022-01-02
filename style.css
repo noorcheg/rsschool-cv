@@ -205,3 +205,9 @@ footer {
     width: 150px;
     text-decoration: none;
 }
+
+@media (max-width: 768px) {
+    .section {
+      width: 100%;
+    }
+  }
